@@ -1,1 +1,19 @@
-e
+body{
+    background-color: #770077
+}
+
+#page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page > ul{
+    background: black;
+    color: white;
+    padding-right: 20px;
+}
+
+#page > h1, h3{
+    color: white
+}
